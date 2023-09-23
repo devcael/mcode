@@ -34,7 +34,7 @@
                 {
                     "foreground": "p:blue",
                     "style": "plain",
-                    "template": " {{ .UserName }}@{{ .HostName }}",
+                    "template": " {{ .UserName }}@{{ .HostName }} <p:blue-2>\u26a1",
                     "type": "session"
                 },
                 {
@@ -42,7 +42,7 @@
                     "properties": {
                         "folder_separator_icon": "/",
                         "style": "full",
-                        "home_icon": "\u26a1"
+                        "home_icon": ""
                     },
                     "style": "plain",
                     "template": " {{ .Path }} ",

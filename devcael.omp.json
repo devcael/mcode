@@ -71,7 +71,7 @@
             "segments": [
                 {
                     "style": "plain",
-                    "template": " 🚀<p:white> DevCael! ",
+                    "template": "<p:blue>🚀 Bem-vindo, Cael!",
                     "type": "text"
                 }
             ],

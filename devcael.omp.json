@@ -16,7 +16,7 @@
                 {
                     "foreground": "p:blue-3",
                     "style": "plain",
-                    "template": "{{ .Name}} ",
+                    "template": "{{ .Name }}",
                     "type": "shell",
                     "properties": {
                         "mapped_shell_names": {
@@ -32,11 +32,17 @@
                     }
                 },
                 {
+                    "foreground": "p:blue",
+                    "style": "plain",
+                    "template": " {{ .UserName }}@{{ .HostName }}",
+                    "type": "session"
+                },
+                {
                     "foreground": "p:blue-2",
                     "properties": {
                         "folder_separator_icon": "/",
                         "style": "full",
-                        "home_icon": ""
+                        "home_icon": "\u26a1"
                     },
                     "style": "plain",
                     "template": " {{ .Path }} ",

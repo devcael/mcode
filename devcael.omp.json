@@ -41,11 +41,11 @@
                     "foreground": "p:blue-2",
                     "properties": {
                         "folder_separator_icon": "/",
-                        "style": "full",
-                        "home_icon": ""
+                        "style": "folder",
+                        "home_icon": "/"
                     },
                     "style": "plain",
-                    "template": " {{ .Path }} ",
+                    "template": "<p:blue-2> {{ .Path }} ",
                     "type": "path"
                 },
                 {

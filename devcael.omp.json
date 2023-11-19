@@ -68,17 +68,6 @@
         },
         {
             "alignment": "left",
-            "segments": [
-                {
-                    "style": "plain",
-                    "template": "<p:blue>🚀 Bem-vindo, Cael!",
-                    "type": "text"
-                }
-            ],
-            "type": "prompt"
-        },
-        {
-            "alignment": "left",
             "newline": true,
             "segments": [
                 {
